@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Sciendo.Fitas.Model.DayDetail">
+    <Position X="4.25" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DayDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sciendo.Fitas.Model.DaySummary">
+    <Position X="8.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAEAAAAAgAAAAAAAAAAAAAACAAAAAAAAAABAAA=</HashCode>
+      <FileName>DaySummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sciendo.Fitas.Model.SeriesDetail">
+    <Position X="0.75" Y="2.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAEAAAAAQAAAABAAAAABBAAACAAAAAAAA=</HashCode>
+      <FileName>SeriesDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sciendo.Fitas.Model.SeriesSummary">
+    <Position X="4.25" Y="2.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAQAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SeriesSummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sciendo.Fitas.Model.WeekDetail">
+    <Position X="8.25" Y="3.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WeekDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sciendo.Fitas.Model.WeekSummary">
+    <Position X="12" Y="2.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAQAAABABAAAAAGAAAAAAAABAAAAA=</HashCode>
+      <FileName>WeekSummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Sciendo.Fitas.Model.SeriesStatus">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBAAAIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>SeriesStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Sciendo.Fitas.Model.Status">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Status.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

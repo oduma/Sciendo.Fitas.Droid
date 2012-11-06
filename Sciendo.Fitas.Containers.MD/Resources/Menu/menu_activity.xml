@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/start_activity" android:titleCondensed="Start" android:title="Start Day"/>
+  <item android:id="@+id/history" android:titleCondensed="History" android:title="View History"/>
+</menu>

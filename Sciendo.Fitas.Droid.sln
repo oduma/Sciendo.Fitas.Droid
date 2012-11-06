@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sciendo.Fitas.Containers.MD", "Sciendo.Fitas.Containers.MD\Sciendo.Fitas.Containers.MD.csproj", "{01CB49DB-EB26-4522-804E-9DFB4D03BAB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoCross.Droid", "MonoCross.Droid\MonoCross.Droid.csproj", "{B8448676-C9FE-42A3-A30B-F2FFA096E7D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Android.Dialog", "Android.Dialog\Android.Dialog.csproj", "{368CF6A6-67D3-47EF-B8E2-D739C406421B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoCross.Utilities.MD", "MXU\MonoCross.Utilities.MD.csproj", "{1657B775-3827-40DA-98AF-F8D9CAB44FDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sciendo.Fitas.MD", "Sciendo.Fitas.MD\Sciendo.Fitas.MD.csproj", "{B239FEE0-7047-4F23-8BF5-99501F19D6EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoCross.Navigation.MD", "MonoCross.Navigation\MonoCross.Navigation.MD.csproj", "{0D2CC54A-4716-40B9-8110-453F528810FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01CB49DB-EB26-4522-804E-9DFB4D03BAB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CB49DB-EB26-4522-804E-9DFB4D03BAB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CB49DB-EB26-4522-804E-9DFB4D03BAB4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{01CB49DB-EB26-4522-804E-9DFB4D03BAB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CB49DB-EB26-4522-804E-9DFB4D03BAB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01CB49DB-EB26-4522-804E-9DFB4D03BAB4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B8448676-C9FE-42A3-A30B-F2FFA096E7D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8448676-C9FE-42A3-A30B-F2FFA096E7D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8448676-C9FE-42A3-A30B-F2FFA096E7D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8448676-C9FE-42A3-A30B-F2FFA096E7D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{368CF6A6-67D3-47EF-B8E2-D739C406421B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{368CF6A6-67D3-47EF-B8E2-D739C406421B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{368CF6A6-67D3-47EF-B8E2-D739C406421B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{368CF6A6-67D3-47EF-B8E2-D739C406421B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1657B775-3827-40DA-98AF-F8D9CAB44FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1657B775-3827-40DA-98AF-F8D9CAB44FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1657B775-3827-40DA-98AF-F8D9CAB44FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1657B775-3827-40DA-98AF-F8D9CAB44FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B239FEE0-7047-4F23-8BF5-99501F19D6EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B239FEE0-7047-4F23-8BF5-99501F19D6EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B239FEE0-7047-4F23-8BF5-99501F19D6EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B239FEE0-7047-4F23-8BF5-99501F19D6EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D2CC54A-4716-40B9-8110-453F528810FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D2CC54A-4716-40B9-8110-453F528810FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D2CC54A-4716-40B9-8110-453F528810FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D2CC54A-4716-40B9-8110-453F528810FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
