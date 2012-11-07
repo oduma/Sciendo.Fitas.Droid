@@ -10,10 +10,10 @@ using System.IO;
 using MonoCross.Droid;
 using Sciendo.Fitas.Model;
 using MonoCross.Navigation;
-
-
 using System.Collections.Generic;
 
+
+//this comes from github
 namespace Sciendo.Fitas.Containers.MD
 {
     [Activity(Label = "Fit as you are", MainLauncher = true, 
