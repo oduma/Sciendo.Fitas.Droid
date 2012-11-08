@@ -46,6 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Views\ActivityDoneView.cs" />
+    <Compile Include="Views\ActivityStartedView.cs" />
+    <Compile Include="Views\DayView.cs" />
     <Compile Include="SplashScreenActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -90,6 +93,12 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Menu\menu_activity.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Menu\menu_day_not_done.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Menu\menu_day_done.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

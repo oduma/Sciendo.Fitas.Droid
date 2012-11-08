@@ -1,5 +1,0 @@
-C:\Code\Sciendo\Sciendo.Fitas.Droid\Sciendo.Fitas.Containers.MD\bin\Debug\Sciendo.Fitas.Containers.MD.dll
-C:\Code\Sciendo\Sciendo.Fitas.Droid\Sciendo.Fitas.Containers.MD\bin\Debug\MonoCross.Droid.dll
-C:\Code\Sciendo\Sciendo.Fitas.Droid\Sciendo.Fitas.Containers.MD\bin\Debug\MonoCross.Navigation.MD.dll
-C:\Code\Sciendo\Sciendo.Fitas.Droid\Sciendo.Fitas.Containers.MD\bin\Debug\Android.Dialog.dll
-C:\Code\Sciendo\Sciendo.Fitas.Droid\Sciendo.Fitas.Containers.MD\bin\Debug\Sciendo.Fitas.MD.dll

@@ -43,8 +43,17 @@ namespace Sciendo.Fitas.Containers.MD
 			// aapt resource value: 0x7f060001
 			public const int dialog_ValueField = 2131099649;
 			
+			// aapt resource value: 0x7f060006
+			public const int facebook = 2131099654;
+			
 			// aapt resource value: 0x7f060004
 			public const int history = 2131099652;
+			
+			// aapt resource value: 0x7f060005
+			public const int map_view = 2131099653;
+			
+			// aapt resource value: 0x7f060007
+			public const int start = 2131099655;
 			
 			// aapt resource value: 0x7f060003
 			public const int start_activity = 2131099651;
@@ -76,6 +85,12 @@ namespace Sciendo.Fitas.Containers.MD
 			
 			// aapt resource value: 0x7f050000
 			public const int menu_activity = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int menu_day_done = 2131034113;
+			
+			// aapt resource value: 0x7f050002
+			public const int menu_day_not_done = 2131034114;
 			
 			private Menu()
 			{

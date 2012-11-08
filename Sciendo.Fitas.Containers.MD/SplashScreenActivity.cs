@@ -13,7 +13,6 @@ using MonoCross.Navigation;
 using System.Collections.Generic;
 
 
-//this comes from github
 namespace Sciendo.Fitas.Containers.MD
 {
     [Activity(Label = "Fit as you are", MainLauncher = true, 
@@ -38,11 +37,11 @@ namespace Sciendo.Fitas.Containers.MD
             // activity view
             MXDroidContainer.AddView<ActivityInProgress>(typeof(Views.ActivityView), ViewPerspective.Default);
 
-            //// activity in progress view
-            //MXDroidContainer.AddView<ActivityInProgress>(new Views.ActivityStartedView(), "STARTED");
+            // activity in progress view
+            MXDroidContainer.AddView<ActivityInProgress>(typeof(Views.ActivityStartedView), "STARTED");
 
-            //// activity view
-            //MXDroidContainer.AddView<ActivityInProgress>(new Views.ActivityDoneView(), "DONE");
+            // activity view
+            MXDroidContainer.AddView<ActivityInProgress>(typeof(Views.ActivityDoneView), "DONE");
 
             //weeks list view
             MXDroidContainer.AddView<List<WeekSummary>>(typeof(Views.WeeksListView), ViewPerspective.Default);
@@ -50,8 +49,8 @@ namespace Sciendo.Fitas.Containers.MD
             //week view
             MXDroidContainer.AddView<WeekDetail>(typeof(Views.WeekView), ViewPerspective.Default);
 
-            ////day view
-            //MXDroidContainer.AddView<Day>(new Views.DayView(), ViewPerspective.Default);
+            //day view
+            MXDroidContainer.AddView<Day>(typeof(Views.DayView), ViewPerspective.Default);
 
             // navigate to first view
             MXDroidContainer.Navigate(null, MXContainer.Instance.App.NavigateOnLoad);

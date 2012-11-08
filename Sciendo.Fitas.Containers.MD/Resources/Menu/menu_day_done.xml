@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/map_view" android:titleCondensed="Map" android:title="View Map"/>
+  <item android:id="@+id/facebook" android:titleCondensed="Facebook" android:title="Push to Facebook"/>
+  <item android:id="@+id/start" android:titleCondensed="Restart" android:title="Restart Day"/>
+</menu>
