@@ -12,6 +12,7 @@ using Android.Widget;
 using MonoCross.Droid;
 using Sciendo.Fitas.Model;
 using Android.Dialog;
+using MonoCross.Navigation;
 
 namespace Sciendo.Fitas.Containers.MD.Views
 {
@@ -29,5 +30,24 @@ namespace Sciendo.Fitas.Containers.MD.Views
                 }
             };
         }
+
+        public override bool OnCreateOptionsMenu(IMenu menu)
+        {
+            MenuInflater.Inflate(Resource.Menu.menu_activity_done, menu);
+            return true;
+        }
+        public override bool OnOptionsItemSelected(IMenuItem item)
+        {
+            switch (item.ItemId)
+            {
+                case Resource.Id.history:
+                    {
+                        this.Navigate(string.Format("Weeks"));
+                        return true;
+                    }
+            }
+            return base.OnOptionsItemSelected(item);
+        }
+
     }
 }

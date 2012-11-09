@@ -87,10 +87,13 @@ namespace Sciendo.Fitas.Containers.MD
 			public const int menu_activity = 2131034112;
 			
 			// aapt resource value: 0x7f050001
-			public const int menu_day_done = 2131034113;
+			public const int menu_activity_done = 2131034113;
 			
 			// aapt resource value: 0x7f050002
-			public const int menu_day_not_done = 2131034114;
+			public const int menu_day_done = 2131034114;
+			
+			// aapt resource value: 0x7f050003
+			public const int menu_day_not_done = 2131034115;
 			
 			private Menu()
 			{
