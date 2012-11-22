@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidJavaSource Include="Facebook\FacebookHelper.java" />
+    <Compile Include="Facebook\Facebook.cs" />
     <Compile Include="Views\ActivityDoneView.cs" />
     <Compile Include="Views\ActivityStartedView.cs" />
     <Compile Include="Views\DayView.cs" />
@@ -102,6 +104,14 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Menu\menu_activity_done.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidJavaSource Include="Facebook\AsyncFacebookRunner.java" />
+    <AndroidJavaSource Include="Facebook\DialogError.java" />
+    <AndroidJavaSource Include="Facebook\Facebook.java" />
+    <AndroidJavaSource Include="Facebook\FacebookError.java" />
+    <AndroidJavaSource Include="Facebook\FbDialog.java" />
+    <AndroidJavaSource Include="Facebook\Util.java" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

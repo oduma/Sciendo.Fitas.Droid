@@ -2,4 +2,5 @@
 <resources>
     <string name="Hello">Loading please wait!</string>
     <string name="ApplicationName">Sciendo.Fitas.Containers.MD</string>
+    <string name="FacebookMessage">Have completed the day in Fitas.</string>
 </resources>

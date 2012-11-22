@@ -8,6 +8,7 @@ using MonoCross.Droid;
 using Sciendo.Fitas.Model;
 using Android.Dialog;
 using MonoCross.Navigation;
+using Sciendo.Fitas.Container.MD.Facebook;
 
 namespace Sciendo.Fitas.Containers.MD.Views
 {
@@ -43,8 +44,17 @@ namespace Sciendo.Fitas.Containers.MD.Views
             {
                 case Resource.Id.start:
                     {
-                        this.Navigate(string.Format("Activity/{0},{1}/GET",Model.WeekId,Model.DayId));
+                        this.Navigate(string.Format("Activity/{0},{1}/GET", Model.WeekId, Model.DayId));
                         return true;
+                    }
+                case Resource.Id.facebook:
+                    {
+                        string message = Resources.GetString(Resource.String.FacebookMessage);
+                        using(Facebook faceBook = new Facebook((Activity)this))
+                        {
+                            faceBook.PostUpdate(message);
+                            return true;
+                        }
                     }
             }
             return base.OnOptionsItemSelected(item);
